@@ -1,0 +1,56 @@
+/* src/components/App.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f3961 0%, #315ca0 100%);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+
+}
+
+.greeting {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  background-color: #007bff;
+  border:none;
+ 
+}
+
+.input {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.forma{
+  margin-bottom: 50px;
+}
